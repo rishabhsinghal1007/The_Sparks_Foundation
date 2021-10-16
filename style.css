@@ -46,7 +46,6 @@ nav {
 }
 
 .navlinks li:hover {
-	/* background-color: rgba(252, 162, 17, 0.329); */
 	background-color: rgba(193, 214, 208, 0.685);
 	transition: all 250ms ease;
 }
