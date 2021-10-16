@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-image: url("img.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+
+		<title>TSF Payment Gateway Integration</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+	</head>
+
+	<body>
+		<header>
+			<nav id="navbar">
+				<h2 class="headbar">Sparks Foundation</h2>
+				<ul class="navlinks">
+					<li><a class="links" href="./index.html">Home</a></li>
+					<li><a class="links" href="./index.html">About Us</a></li>
+					<li>
+						<a class="links" href="https://rzp.io/l/2UDUjErqa">Donate</a>
+					</li>
+					<li><a class="links" href="./index.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<header class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h1><u>COVID-19 RELIEF FUND</u></h1>
+						<h4>
+							"Helping those in need is not charity, it's humanity."
+						</h4>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<div
+							class="razorpay-embed-btn"
+							data-url="https://rzp.io/l/2UDUjErqa"
+							data-text="Donate"
+							data-color="#528FF0"
+							data-size="large"
+						>
+							<script>
+								(function () {
+									var d = document;
+									var x = !d.getElementById("razorpay-embed-btn-js");
+									if (x) {
+										var s = d.createElement("script");
+										s.defer = !0;
+										s.id = "razorpay-embed-btn-js";
+										s.src =
+											"https://cdn.razorpay.com/static/embed_btn/bundle.js";
+										d.body.appendChild(s);
+									} else {
+										var rzp = window["__rzp__"];
+										rzp && rzp.init && rzp.init();
+									}
+								})();
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script
+			src="https://kit.fontawesome.com/c252d9c8b4.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
